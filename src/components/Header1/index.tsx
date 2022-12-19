@@ -10,7 +10,7 @@ interface INavLink {
 const linksData: INavLink[] = [
   {
     id: 0,
-    name: 'Lodestar',
+    name: 'Brand',
     linkUrl: '#about',
   },
   {
@@ -21,17 +21,17 @@ const linksData: INavLink[] = [
   {
     id: 2,
     name: 'Docs',
-    linkUrl: 'https://chainsafe.github.io/lodestar/',
+    linkUrl: 'hhttps://github.com/',
   },
   {
     id: 3,
     name: 'Demo',
-    linkUrl: 'https://lodestar-lightclient.chainsafe.io/',
+    linkUrl: 'https://github.com/',
   },
   {
     id: 4,
     name: 'GitHub',
-    linkUrl: 'https://github.com/ChainSafe/lodestar',
+    linkUrl: 'https://github.com/',
   },
 ];
 

@@ -25,31 +25,31 @@ export const tabs = [
 export const tabContent = [
   {
     id: "0",
-    year: "2018",
-    caption: "ChainSafe receives first-ever grant from Vitalik Buterin to develop Lodestar.",
-    imgUrl: "/yolo.png"
+    title: "2018",
+    caption: "Caption goes here",
+    imgUrl: ""
   },
   {
     id: "1",
-    year: "2019",
-    caption: "ChainSafe receives a grant to develop tooling such as SSZ, BLS, and SHA256-AS for Ethereum Consensus (eth2) in the JS ecosystem.",
+    title: "2019",
+    caption: "Caption goes here",
   },
   {
     id: "2",
-    year: "2020",
-    caption: "Lodestar participates in early beacon chain testnets such as Medalla with the staking community.",
-    imgUrl: "/medalla.png"
+    title: "2020",
+    caption: "Caption goes here",
+    imgUrl: ""
   },
   {
     id: "3",
-    year: "2021",
-    caption: "Proposed the first Lodestar mainnet block on Ethereum. Released first in-browser light client demonstration that tracks consensus using sync committees.",
-    imgUrl: "/demo.png"
+    title: "2021",
+    caption: "Caption goes here",
+    imgUrl: ""
   },
   {
     id: "4",
-    year: "2022",
-    caption: "Successfully participated in the Ethereum merge to Proof-of-Stake. Released Lodestar v1.0.",
-    imgUrl: "/panda.png"
+    title: "2022",
+    caption: "Caption goes here",
+    imgUrl: ""
   },
 ];
