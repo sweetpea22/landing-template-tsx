@@ -1,0 +1,46 @@
+@import 'src/styles/breakpoints.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/typography.scss';
+
+.hero {
+  @media #{$mq-xl} {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @media #{$mq-md} {
+    margin: 20vh $margin-sm;
+  }
+  margin: 10vh 8px;
+  flex-direction: column;
+  display: flex;
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      @media #{$mq-md} {
+        font-size: 72px;
+        line-height: 80px;
+      }
+      @extend %h1;
+      color: $white;
+      font-size: 56px;
+      line-height: 64px;
+      font-weight: 600;
+      margin-block-end: 1rem;
+    }
+    p {
+      @extend %body-lg;
+      color: white;
+      max-width: 30rem;
+    }
+  }
+  .button-group {
+    a {
+      margin-right: 0.5rem;
+    }
+  }
+}
