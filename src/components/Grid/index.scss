@@ -1,0 +1,18 @@
+@import 'src/styles/breakpoints.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/typography.scss';
+
+.grid {
+  margin: 10vh 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(200px, (1200px - 100vw)*1000, 50%), 1fr));
+  justify-items: center;
+
+  h1, p {
+    color: white,
+  }
+
+  img {
+    max-width: clamp(300px, (1024px - 100vw)*1000, 25vw);
+  }
+}

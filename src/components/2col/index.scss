@@ -1,0 +1,14 @@
+@import 'src/styles/breakpoints.scss';
+@import 'src/styles/colors.scss';
+@import 'src/styles/typography.scss';
+
+.cards {
+  margin: 10vh 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(200px, (1024px - 100vw)*1000, 100%), 1fr));
+  justify-items: center;
+
+  h1, p {
+    color: white,
+  }
+}
