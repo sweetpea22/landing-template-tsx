@@ -11,7 +11,7 @@ export const Home: React.FC = () => {
     <Fragment>
       <Header1 />
       <Grid>
-        {demoData.slice(0, 2).map((data) => (
+        {demoData.slice(0, 4).map((data) => (
           <Card {...data} />
         ))}
       </Grid>
